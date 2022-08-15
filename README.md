@@ -1,2 +1,3 @@
-# front-end-course
-репозиторий с дз по курсу
+## front-end-course 
+
+- Проект 2 урока [тык](https://dzidagor.github.io/front-end-course/kurs_lesson_3/src/)
