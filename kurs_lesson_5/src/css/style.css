@@ -1,0 +1,27 @@
+body {
+  background: #FF8B40;
+}
+
+.content-left {
+  width: 70%;
+  min-height: 150px;
+  background: #FFAA73;
+
+  float: left;
+}
+
+.content-right {
+  width: 30%;
+  min-height: 150px;
+  background: #FFAA73;
+  margin-left: 70%;
+  position: fixed;
+}
+.content-left-annotation-title, .content-left-book-chapter_1-title, .content-left-book-title, .content-left-book-chapter_1-note_1-title, .content-left-book-chapter_2-title, .content-left-book-chapter_2-note_2-title, .content-left-book-chapter_3-title, .content-left-book-chapter_3-note_3-title, .content-left-book-chapter_4-title, .content-left-book-chapter_4-note_4-title, .content-left-book-chapter_5-title, .content-left-book-chapter_5-note_5-title {
+  text-align: center;
+}
+
+
+
+
+
