@@ -1,3 +1,5 @@
 ## front-end-course 
 
-- Проект 2 урока [тык](https://dzidagor.github.io/front-end-course/kurs_lesson_3/src/)
+- Проект 3 урока [тык](https://dzidagor.github.io/front-end-course/kurs_lesson_3/src/)
+- Проект 4 урока [тык](https://dzidagor.github.io/front-end-course/kurs_lesson_4/dist/)
+- Проект 5 урока [тык](https://dzidagor.github.io/front-end-course/kurs_lesson_5/dist/)
