@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before, *:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0; border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+  background: #f9f9f9;
+}
+
+.content_block-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  margin: 100px auto 125px;
+}
+
+.content_block-products {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1150px;
+  width: 59%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content_block-products-cutter_18mm, .content_block-products-cutter_9mm, .content_block-products-cutting_mat, .content_block-products-rule {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  align-items: center;
+}
+
+.content_block-products-cutter_18mm-img, .content_block-products-cutter_9mm-img, .content_block-products-cutting_mat-img, .content_block-products-rule-img {
+  margin-bottom: 25px;
+}
+
+.content_block-products-cutter_18mm-name, .content_block-products-cutter_9mm-name, .content_block-products-cutting_mat-name, .content_block-products-rule-name {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.content_block-products-cutter_18mm-price, .content_block-products-cutter_9mm-price, .content_block-products-cutting_mat-price, .content_block-products-rule-price {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content_block-products-cutter_18mm-button_buy, .content_block-products-cutter_9mm-button_buy, .content_block-products-cutting_mat-button_buy, .content_block-products-rule-button_buy {
+  margin-bottom: 25px;
+  text-align: center;
+
+  font-size: 13px;
+  font-weight: bold;
+  color: #23bac1;
+  border: 1px #23bac1 solid;
+  width: 80%;
+  height: 55px;
+  line-height: 55px;
+}
