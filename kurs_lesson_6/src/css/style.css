@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before, *:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0; border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body {
+  min-width: 1200px;
+  background-color: #f6f6f6;
+  min-height: 675px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_card {
+  width: 84%;
+  height: 75%;
+  background-color: #fff;
+  min-width: 1010px;
+  min-height: 503px;
+  align-items: center;
+}
+
+.item_card-img, .item_card-info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.item_card-img {
+  width: 42%;
+  height: 74%;
+  min-width: 375px;
+  min-height: 375px;
+  margin: 5% 5% 6%;
+}
+
+.item_card-img-item {
+  object-position: center middle;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.item_card-info {
+  width: 39%;
+  height: 74%;
+  margin: 5% 0 6% 2%;
+  min-width: 375px;
+  min-height: 375px;
+}
+
+.item_card-info-name h1, .item_card-info-description, .item_card-info-price, .item_card-info-int_price {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #2f2f2f;
+}
+
+.item_card-info-name {
+  font-weight: bold;
+  font-size: 22.5px;
+  margin: 5% 0 9% 0;
+}
+
+.item_card-info-description, .item_card-info-price {
+  font-size: 15px;
+}
+
+.item_card-info-description {
+  margin: 0 0 15% 0;
+}
+
+.item_card-info-price {
+  margin: 0 0 5% 0;
+}
+.item_card-info-int_price {
+  font-size: 30px;
+  margin: 0 0 13% 0;
+}
+
+.item_card-info-cart_button {
+  font-size: 19px;
+  width: 252px;
+  height: 50px;
+  background-color: #ec744a;
+  text-align: center;
+  line-height: 50px;
+  font-family: Arial, "Helvetica Neue";
+  color: #fff;
+}
