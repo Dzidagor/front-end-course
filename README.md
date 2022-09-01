@@ -7,3 +7,4 @@
 - Проект 7.1 урока [тык](https://dzidagor.github.io/front-end-course/kurs_lesson_7.1/dist/)
 - Проект 7.2 урока [тык](https://dzidagor.github.io/front-end-course/kurs_lesson_7.2/dist/)
 - Проект 8 урока [тык](https://dzidagor.github.io/front-end-course/kurs_lesson_8/dist/)
+- Драфт-проект 1 [тык](https://dzidagor.github.io/front-end-course/draft_project/src/)
