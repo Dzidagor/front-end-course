@@ -1,0 +1,78 @@
+.main
+  background-color: $bg-color
+  &-block
+    display: flex
+    justify-content: space-between
+    &-text
+      display: flex
+      flex-direction: column
+      width: 45%
+      &__title
+        margin: 0
+        font-size: 41px
+        font-weight: bold
+        line-height: 1.34
+        color: $text-color
+        margin-top: 90px
+      &__subtitle
+        margin: 0
+        font-size: 20px
+        font-weight: bold
+        line-height: 1.4
+        color: $text-color
+        margin-top: 50px
+      &-list
+        margin: 0
+        padding: 0
+        margin-top: 70px
+        &__item
+          list-style: none
+          display: flex
+          align-items: center
+          margin-bottom: 30px
+        &__item>img
+          padding: 10px
+          border: solid 2px $main-color
+          border-radius: 50%
+          margin-right: 30px
+        &__item .img-2
+          padding: 10px 12px
+        &__item .img-3
+          padding: 12px 10px
+    &__img
+      position: relative
+      margin-top: 50px
+      margin-bottom: 52px
+      box-shadow: 16.2px 21.6px 35px 0 rgba(0, 0, 0, 0.05), 6.6px 4.5px 10px 0 rgba(0, 0, 0, 0.05)
+      width: 570px
+      height: 488px
+    &__img img
+      object-fit: cover
+      width: 100%
+      height: 100%
+      position: absolute
+
+@media (max-width: 575.98px)
+  .main-block
+    flex-direction: column
+    align-items: center
+    &-text
+      width: 100%
+      &__title
+        font-size: 24px
+        font-weight: bold
+        margin-top: 46px
+      &__subtitle
+        margin-top: 13px
+        font-size: 16px
+        line-height: normal
+      &-list
+        margin-top: 30px
+        &__item
+          margin-bottom: 20px
+        &__item>img
+          margin-right: 15px
+    &__img
+      width: 270px
+      height: 231px
+      
